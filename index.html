@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
-    <div class="login-container">
-        <form class="login-form">
-            <h2>Login</h2>
-            <p class="email"><input type="text" placeholder="Email" required><i class="fa-solid fa-envelope"></i></p>
-            <p class="email"><input type="password" placeholder="Password" required><i class="fa-solid fa-lock"></i></p>
-            <p class="signup-link"><input type="checkbox">Remember Me &nbsp;&nbsp;<a href="#">Forgot password?</a></p>
-            <button type="submit">Login</button>
-            <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
-        </form>
-    </div>
+  <div class="login-container">
+    <form class="login-form">
+      <h2>Login</h2>
+
+      <div class="input-group">
+        <input type="email" id="email" placeholder=" " required />
+        <label for="email">Email</label>
+        <i class="fa-solid fa-envelope icon"></i>
+      </div>
+
+      <div class="input-group">
+        <input type="password" id="password" placeholder=" " required />
+        <label for="password">Password</label>
+        <i class="fa-solid fa-lock icon"></i>
+      </div>
+
+      <p class="signup-link">
+        <input type="checkbox" />Remember Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Forgot password?</a>
+      </p>
+
+      <button type="submit">Login</button>
+
+      <p class="signup">
+        Don't have an account? <a href="#">Sign up</a>
+      </p>
+    </form>
+  </div>
 </body>
 </html>
