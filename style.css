@@ -53,3 +53,48 @@ body {
   height: 23rem;
 }
 
+.input-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid white;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem 2rem 0.4rem 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+}
+
+.input-group label {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.8rem;
+  color: white;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+  top: -0.6rem;
+  left: 0.4rem;
+  font-size: 0.75rem;
+  color: white;
+  background-color: transparent;
+  padding: 0 0.25rem;
+}
+
+.input-group .icon {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+
