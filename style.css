@@ -1,17 +1,30 @@
-input{
-    border: 0px transparent;
-    outline:none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.email{
-    display: inline-block;
-    border-bottom: 2px solid black; 
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
 }
 
-.login-form{
-    width: 20%;
-    border: 2px black solid;
-    padding-left: 2%;
-    border-radius: 1.2rem;
+a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
 }
+a:hover{
+    opacity: 1;
+}
+
+button{
+    margin-top: 1.3rem;
+    width: 50%;
+    height: 10%;
+    border-radius: 5rem;
+    margin-left: 5.7em;
+}
+
 
