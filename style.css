@@ -97,4 +97,15 @@ body {
   color: white;
 }
 
+/* Other styling */
+.signup-link {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: white;
+}
 
+.signup{
+    text-align: center;
+    margin-top: 1.6rem;
+    color: white;
+}
